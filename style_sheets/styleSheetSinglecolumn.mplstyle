@@ -1,0 +1,57 @@
+# To check more avaialble options see:
+# https://matplotlib.org/tutorials/introductory/customizing.html
+## This style sheet is for a single column plot with figure size (9in wide and 18in height) 
+
+text.color : (0.2,0.2,0.2)
+
+## figure output 
+figure.figsize  : 9,18 ##in inches, height range: 17 to 22
+savefig.dpi : 300
+#patch
+patch.linewidth: 0.5
+patch.facecolor: 348ABD  # blue
+patch.edgecolor: EEEEEE
+patch.antialiased: True
+##fonts
+font.family  : sans-serif
+font.sans-serif: Arial Narrow
+font.size    : 9 #minimum
+text.usetex  : true
+
+# AXES
+
+#axes.titlesize : 9
+#axes.labelsize : 9
+axes.facecolor: E5E5E5
+axes.edgecolor: white
+axes.linewidth: 1
+axes.titlesize: x-large
+axes.labelsize: large
+axes.labelcolor: 555555
+axes.spines.top : False
+axes.spines.right : False
+axes.spines.bottom : True
+axes.spines.left : True
+
+# TICKS
+xtick.labelsize : 9
+xtick.color : (0.2,0.2,0.2)
+xtick.direction : in
+ytick.labelsize : 9
+ytick.color : (0.2,0.2,0.2)
+ytick.direction : in
+
+# GRID
+axes.grid : True
+grid.linestyle : -
+grid.color : white
+# LINES
+axes.prop_cycle : cycler('color', [ '0046b8', '2464c9', '4d87e3', '7899cf', '8ea1bf']) #hex colours
+lines.linewidth : 1.5
+lines.markeredgewidth : 0.0
+
+## figure
+figure.facecolor: white
+figure.edgecolor: 0.5
+
+
