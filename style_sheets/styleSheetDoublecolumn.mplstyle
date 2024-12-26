@@ -4,17 +4,13 @@
 
 text.color : (0.2,0.2,0.2)
 
-## figure output 
-figure.figsize  : 18,10 ##in inches, height range: 17 to 22
-#savefig.dpi : 200
-
-##fonts
+##FONTS
 font.family  : sans-serif
 font.sans-serif: Arial Narrow
 font.size    : 11 #mininum
 #text.usetex  : true
-# AXES
 
+# AXES
 #axes.titlesize : 11
 #axes.labelsize : 11
 axes.facecolor: E5E5E5
@@ -40,14 +36,18 @@ ytick.direction : in
 axes.grid : True
 grid.linestyle : -
 grid.color : white
+
 # LINES
 axes.prop_cycle : cycler('color', [ '0046b8', '2464c9', '4d87e3', '7899cf', '8ea1bf']) #hex colours
 lines.linewidth : 1.5
 lines.markeredgewidth : 0.0
 
-## figure
+## FIGURE
+figure.figsize  : 18,10 ##in inches, height range: 17 to 22
+#savefig.dpi : 200
 figure.facecolor: white
 figure.edgecolor: black
-
-#figure title location are not directly supported through style sheet
+figure.titlesize: large
+figure.titleweight: normal
+figure.titlehorizontalalignment: left
 

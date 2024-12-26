@@ -4,22 +4,19 @@
 
 text.color : (0.2,0.2,0.2)
 
-## figure output 
-figure.figsize  : 9,18 ##in inches, height range: 17 to 22
-savefig.dpi : 300
-#patch
+#PATCH
 patch.linewidth: 0.5
 patch.facecolor: 348ABD  # blue
 patch.edgecolor: EEEEEE
 patch.antialiased: True
-##fonts
+
+##FONTS
 font.family  : sans-serif
 font.sans-serif: Arial Narrow
 font.size    : 9 #minimum
 text.usetex  : true
 
 # AXES
-
 #axes.titlesize : 9
 #axes.labelsize : 9
 axes.facecolor: E5E5E5
@@ -50,8 +47,11 @@ axes.prop_cycle : cycler('color', [ '0046b8', '2464c9', '4d87e3', '7899cf', '8ea
 lines.linewidth : 1.5
 lines.markeredgewidth : 0.0
 
-## figure
+## FiGURE 
+figure.figsize  : 9,18 ##in inches, height range: 17 to 22
+savefig.dpi : 300
 figure.facecolor: white
 figure.edgecolor: 0.5
-
-
+figure.titlesize: large
+figure.titleweight: normal
+figure.titlehorizontalalignment: left
